@@ -1,0 +1,106 @@
+
+.foot-email-input .ctct-form {
+    border:  0px solid;
+    border:  0px solid #fff;
+    position: relative;
+    margin-top: 15px;
+}
+.foot-email-input .ctct-form {
+    line-height:normal;
+}
+.foot-email-input a.ctct-button {
+    display:none
+}
+.ctct-form-description p {
+    margin-bottom:26px;
+    font-size:14px;
+}
+.foot-email-input .ctct-form .ctct-form-field-email label {
+    display:none !important;
+}
+.foot-email-input .ctct-form .ctct-form-field-email input {
+    width: 100% !important;
+    height:42px;
+    border:  0px;
+    border-radius: 6px;
+    padding:  0 9px;
+    padding-left: 14px;
+    font-size:  14px;
+    outline:  none;
+    /* color: #707070; */
+    background-color: #e8e8e8;
+}
+.foot-email-input .ctct-form .ctct-form-field-submit input {
+    position: absolute;
+    right: 0px;
+    border: 1px solid black ;
+    top: 0px;
+    height:42px;
+    border: 0px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width:  46px;
+    font-weight: 500;
+}
+.foot-email-input .ctct-form .ctct-form-field-submit input:hover,
+.foot-email-input .ctct-form .ctct-form-field-submit input:focus,
+.foot-email-input .ctct-form .ctct-form-field-submit input:hover:focus{
+    /*background-color: #4b9617;*/
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    /*box-shadow: inset 0px 26px 14px 5px #398305;*/
+}
+.foot-email-input .ctct-form .ctct-disclosure {
+    display:none;
+}
+.foot-email-input .ctct-form .ctct-form-field-email input::-webkit-input-placeholder { 
+  color: #3d4f52;
+}
+.foot-email-input .ctct-form .ctct-form-field-email input::-moz-placeholder{
+  color: #3d4f52;
+}
+.foot-email-input .ctct-form .ctct-form-field-email input:-ms-input-placeholder{
+  color: #3d4f52;
+}
+.foot-email-input .ctct-form .ctct-form-field-email input:-moz-placeholder{ 
+  color: #3d4f52;
+}
+.ctct-form-wrapper .ctct-message {
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid green !important;
+    color: #fff;
+    background-color: #4e9e17;
+    font-size: 12px;
+    bottom: 52px;
+    position: absolute;
+}
+.ctct-form-wrapper .ctct-message.error {
+    background-color: #f53c3c;
+    border: 1px solid #981f1f !important;
+}
+.ctct-form-wrapper .ctct-message.success {
+    margin-top: 86px !important;
+    position: relative;
+}
+/*---footer-constant-contact-form--------*/
+
+/*Footer contact sec*/
+
+.img-effect img,img.effect-image{
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    width: 100%;
+}
+.img-effect img:hover,img.effect-image:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.7;
+}
